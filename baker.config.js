@@ -5,7 +5,7 @@ const entrypoints = [
 
 export default {
   output: 'docs',
-  domain: 'https://palewire.github.io',
+  domain: 'https://amandavhernan.github.io',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,
